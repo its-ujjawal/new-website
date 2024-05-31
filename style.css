@@ -33,11 +33,11 @@ header{
     position: relative;
     align-items: center;
     justify-content: center;
-    color: white;
+    color:rgb(65, 65, 239);
     background-color: rgb(153, 6, 23);
 }
 header h1{
-    color: white;
+    color:rgb(175, 175, 247);
 }
 header img{
     height: 10vh;
@@ -64,7 +64,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(175, 175, 247);
     margin: 10px;
     margin-top: 0;
     display: flex;
@@ -200,9 +200,8 @@ footer h2{
     margin-top: -20px;
     flex-direction: column;
 }
-
 #col-blue span{
-    color: blue;
+    color: rgb(21, 21, 194);
 }
 
 #col-red span{
@@ -550,4 +549,7 @@ h1{
 
 .orgg img{
     height:8vh;
+}
+footer h1,footer h2{
+    color: rgb(175, 175, 247);
 }
